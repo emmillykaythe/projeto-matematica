@@ -1,10 +1,7 @@
 export default () => (
     <> 
-     <h1> Bom dia </h1>
+    <center><h2>Página da aluna</h2></center> 
     <br></br>
-         <p>08:16AM
-    <br></br>
-            Hoje é dia 15.04.2025</p>
+         <p>A aluna se chama Emmilly Kaythe</p>
     </>
-)
-
+); 
