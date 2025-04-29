@@ -10,4 +10,4 @@ export default async ({params}) => { // dizendo que vai ser de forma assincrona,
             <p>O aluno faz parte do projeto {usuario.rows[0].cargo} </p>
         </>
     )
-}
+} 
