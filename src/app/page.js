@@ -1,31 +1,31 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-     
-      <div className={styles.circle}>
-          Perfil
+    <div className={styles.page}>      
+
+        <div style={{ display: 'flex', justifyContent: "flex-end" }}>
+          <div className={styles.circle}> 
+            Perfil
+          </div>
+        </div>     
+
+        <div className={styles.conteudo}>
+          <div className={styles.caixa}>
+            <h1>Acesso rápido</h1>
+          </div>
         </div>
-        
-      </main>
-      <footer className={styles.footer}> //links
+      
+
+      <footer className={styles.footer}> 
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Questões
-        </a>
+        Questões</a>
+        
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
