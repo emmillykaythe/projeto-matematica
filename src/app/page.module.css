@@ -16,6 +16,22 @@
   font-family: var(--font-geist-sans);
 }
 
+.circle {
+  width: 50px;                      /* Largura do círculo */
+  height: 50px;                     /* Altura do círculo */
+  background-color: #eb95ee;      /* Cor de fundo do círculo */
+  color: #000;            /* Cor do texto dentro do círculo */
+  border-radius: 50%;               /* Faz o elemento ficar redondo */
+  display: flex;                    /* Usamos flexbox para centralizar o texto */
+  justify-content: center;          /* Centraliza o texto horizontalmente */
+  align-items: center;              /* Centraliza o texto verticalmente */
+  font-size: 13px;                  /* Tamanho da fonte */
+  position: absolute;               /* Posicionamento absoluto */
+  right: 0;                         /* Alinha o círculo à direita */
+  margin: 0;                        /* Remove a margem */
+  top: 2px;
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -166,3 +182,4 @@ a.secondary {
     filter: invert();
   }
 }
+
