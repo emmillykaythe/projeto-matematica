@@ -9,10 +9,8 @@ export default function PaginaInicial() {
         Perfil
       </div>
     </div>     
-        <div className={styles.conteudo}> </div>
         <div className= {styles.abaLateral}> </div>
 
   </div>
-
   );
 }
